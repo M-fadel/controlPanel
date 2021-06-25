@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.myDiv {
+      position: relative;
+      background-image: url("background2.jpg");
+     background-repeat: no-repeat;
+      background-size: cover;
+       background-position: center;
+      width: 500px;
+      border: 5px outset red;
+      padding: 50px;
+      margin: auto;
+    }
+h1 {text-align: center;}
+p {text-align: center;
+color: inherit;}
+div {text-align: center;}
+form {text-align: center;}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+
+  -webkit-appearance: navone;
+  width: 50%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+body  {
+  background-image: url("background.gif");
+ background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="slidecontainer">
+  <div class="myDiv">
+<h1>Control Unit</h1>
+
+
+<form action="dpconn.php" method="post" name="sl" target="target" >
+Engine 1:
+<input type="range" min="0" max="100" value="0" class="slider" id="engin1" name = "eng1"
+  <p>  <span id="e1value"></span></p>
+Engine 2:
+  <input type="range" min="0" max="100" value="0" class="slider" id="engin2" name = "eng2"
+ <p> <span id="e2value"></span></p>
+Engine 3:
+ <input type="range" min="0" max="100" value="0" class="slider" id="engin3" name = "eng3"
+ <p> <span id="e3value"></span></p>
+Engine 4:
+ <input type="range" min="0" max="100" value="0" class="slider" id="engin4" name = "eng4"
+ <p> <span id="e4value"></span></p>
+Engine 5:
+ <input type="range" min="0" max="100" value="0" class="slider" id="engin5" name = "eng5"
+ <p> <span id="e5value"></span></p>
+Engine 6:
+ <input type="range" min="0" max="100" value="0" class="slider" id="engin6" name = "eng6"
+ <p> <span id="e6value"></span></p>
+
+  <input type="submit" value = "save">
+
+
+</form>
+<form action="status.php" method="post"  target="target">
+  <input type="submit" value = "Run">
+</form>
+</div></div>
+
+<iframe style="display:none;" name="target"></iframe>
+
+
+
+<script
+src="myScript.js">
+</script> -->
+
+
+
+
+
+</body>
+</html>

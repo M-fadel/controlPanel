@@ -1,5 +1,6 @@
 # controlPanel
  control panel
+ 
 this task contain 6 files 
 1-index.html interface witch have 6 sliders and 2 buttons save and run.
   after clicking save the the values of the 6 slider will be sent to an invisble iframe witch will run a php file that will connect to 

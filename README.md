@@ -1,7 +1,7 @@
 # controlPanel
  control panel
  
- 	this task contains 6 files.
+ 	this task contains 7 files.
  
  	1-index.html interface which have 6 sliders and 2 buttons save and run.
  		after clicking save the values of the 6 sliders will be sent to an invisible iframe which will run a php file that 
@@ -13,6 +13,8 @@
 	3-status.php has the code to update the status to ON.
 
 	4-myscript.js a JavaScript code that show the values of each slider.
-
-	5&6- background image and GIF
+	
+	5- data.php this file will show the the engineID , value and  status. 
+	
+	6&7- background image and GIF
 
